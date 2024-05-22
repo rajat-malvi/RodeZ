@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url('./rodez.png');
+    background-position: center;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 90vh; 
+    width: 100%; /* Full width of the container */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1{
+    font-family: cursive;
+    padding-left: 10vw;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.box1 span{
+    font-size: 10rem;
+}
+.box2{
+    border: 2px solid rgb(16, 14, 14);
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+
+/* #map{
+    width: 40vw; 
+    height: 90%;
+} */
+
+
